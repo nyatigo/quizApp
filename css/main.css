@@ -1,41 +1,89 @@
-body {
-	background-image: url("../img/mus.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	background-position:center left;
-	height:680px;
-	text-align:center;
+body{
+	background-color:#373431;
 }
 
-h1{
+.container {
+	text-align: center;
+
+
+}
+
+h1 {
+	font-size: 50px;
+	color: #989390;
+	font-weight: 600;
+
+}
+
+button{
+	font-size: 25px;
+	margin-left:40%;
+	background-color: #373431;
+	color: white;
+	border:1px solid black;
+	 
+	height: ;
+	width: ;
+	margin-top: 10px;
+}
+
+button:hover{
+	background-color: black;
+}
+
+#row,h1{
+	margin-left: 10%;
+}
+
+.t1{
+	height:100%;
+	width:60%;
+	background-color: black;
+	margin-left: 10%;
+	margin-top: 25px;
+	font-weight: ;
+
+}
+
+label{
 	color:white;
-	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color:#989390;
+
+	font-size: 30px;
+	}
+input{
+	height:20px;
+	 width: 60px;
+
+
 }
 
-
-h3 {
-	font-family:;
-	text-decoration: underline;
-}
-
-p{
+button{
+	margin-bottom: 40px;
+	margin-top:40px;
+	margin-left:40%;
+	font-size: 30px;
+	background-color:  #373431;
 	color:white;
-	font-family: 'Pacifico', cursive;
-}
-
-h5 {
-	
-font-family: 'Pacifico', cursive;
-color:white;
+	border:1px solid black;
 
 }
 
-#btn:hover {
-  background-color:black;
-  color:green;
+
+
+#disappear {
+	display: none;
 }
 
+#Question2{
+	display:none;
+}
 
-#img{
-	width:200px;
+#Question3{
+	display:none;
+}
+
+#success{
+	display:none;
 }
